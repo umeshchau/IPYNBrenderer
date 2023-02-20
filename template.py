@@ -14,7 +14,8 @@ while True:
 
 logging.info(f"Creating project by name: {project_name}")
 
-# list of files:
+
+# list of the files:
 list_of_files = [
     ".github/workflows/.gitkeep",
     f"src/{project_name}/__init__.py",
